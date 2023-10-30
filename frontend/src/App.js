@@ -1,6 +1,8 @@
 import React from "react";
 // import { Container } from "react-bootstrap/lib/Tab";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+
 import Header from "./components/Header";
 
 const App = () => {
