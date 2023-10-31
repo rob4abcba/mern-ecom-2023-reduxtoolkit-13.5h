@@ -1,13 +1,17 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
+import logo from "../assets/live_auction-640w.webp";
 
 const Header = () => {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="sm" collapseOnSelect>
         <Container>
-          <Navbar.Brand href="/">LiveAuction</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src={logo} alt="LiveAuction" />
+            LiveAuction
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar">
             <Nav className="ms-auto">
